@@ -1,0 +1,130 @@
+<div class="container">
+	<h2 class="section-title" appScrollReveal>
+		{{ 'pricing.title' | t }}<sup class="note-marker" aria-hidden="true">*</sup>
+	</h2>
+	<p class="section-subtitle" appScrollReveal>{{ 'pricing.intro' | t }}</p>
+
+	<div class="pricing-block">
+		<h3 appScrollReveal>{{ 'pricing.web.title' | t }}</h3>
+		<p class="lead" appScrollReveal>{{ 'pricing.web.desc' | t }}</p>
+		<div class="table-responsive" appScrollReveal>
+			<table class="table pricing-table">
+				<caption class="visually-hidden">{{ ('pricing.web.title' | t) + ' - ' + ('pricing.title' | t) }}
+				</caption>
+				<thead>
+					<tr>
+						<th scope="col">{{ 'pricing.web.table.headers.type' | t }}</th>
+						<th scope="col">{{ 'pricing.web.table.headers.price' | t }}</th>
+						<th scope="col">{{ 'pricing.web.table.headers.notes' | t }}</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td [attr.data-label]="'pricing.web.table.headers.type' | t">{{
+							'pricing.web.table.rows.landing.title' | t }}</td>
+						<td [attr.data-label]="'pricing.web.table.headers.price' | t">{{
+							'pricing.web.table.rows.landing.price' | t }}</td>
+						<td [attr.data-label]="'pricing.web.table.headers.notes' | t">{{
+							'pricing.web.table.rows.landing.notes' | t }}</td>
+					</tr>
+					<tr>
+						<td [attr.data-label]="'pricing.web.table.headers.type' | t">{{
+							'pricing.web.table.rows.corporate.title' | t }}</td>
+						<td [attr.data-label]="'pricing.web.table.headers.price' | t">{{
+							'pricing.web.table.rows.corporate.price' | t }}</td>
+						<td [attr.data-label]="'pricing.web.table.headers.notes' | t">{{
+							'pricing.web.table.rows.corporate.notes' | t }}</td>
+					</tr>
+					<tr>
+						<td [attr.data-label]="'pricing.web.table.headers.type' | t">{{
+							'pricing.web.table.rows.ecommerce.title' | t }}</td>
+						<td [attr.data-label]="'pricing.web.table.headers.price' | t">{{
+							'pricing.web.table.rows.ecommerce.price' | t }}</td>
+						<td [attr.data-label]="'pricing.web.table.headers.notes' | t">{{
+							'pricing.web.table.rows.ecommerce.notes' | t }}</td>
+					</tr>
+					<tr>
+						<td [attr.data-label]="'pricing.web.table.headers.type' | t">{{
+							'pricing.web.table.rows.custom.title' | t }}</td>
+						<td [attr.data-label]="'pricing.web.table.headers.price' | t">{{
+							'pricing.web.table.rows.custom.price' | t }}</td>
+						<td [attr.data-label]="'pricing.web.table.headers.notes' | t">{{
+							'pricing.web.table.rows.custom.notes' | t }}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="cta-group" appScrollReveal>
+			<a href="#contact" class="btn primary">{{ 'pricing.cta' | t }}</a>
+		</div>
+	</div>
+
+	<div class="pricing-block">
+		<h3 class="mt-32" appScrollReveal>{{ 'pricing.mobile.title' | t }}</h3>
+		<p class="lead" appScrollReveal>{{ 'pricing.mobile.desc' | t }}</p>
+		<div class="table-responsive" appScrollReveal>
+			<table class="table pricing-table">
+				<caption class="visually-hidden">{{ ('pricing.mobile.title' | t) + ' - ' + ('pricing.title' | t) }}
+				</caption>
+				<thead>
+					<tr>
+						<th scope="col">{{ 'pricing.mobile.table.headers.type' | t }}</th>
+						<th scope="col">{{ 'pricing.mobile.table.headers.price' | t }}</th>
+						<th scope="col">{{ 'pricing.mobile.table.headers.notes' | t }}</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td [attr.data-label]="'pricing.mobile.table.headers.type' | t">{{
+							'pricing.mobile.table.rows.mvp.title' | t }}</td>
+						<td [attr.data-label]="'pricing.mobile.table.headers.price' | t">{{
+							'pricing.mobile.table.rows.mvp.price' | t }}</td>
+						<td [attr.data-label]="'pricing.mobile.table.headers.notes' | t">{{
+							'pricing.mobile.table.rows.mvp.notes' | t }}</td>
+					</tr>
+					<tr>
+						<td [attr.data-label]="'pricing.mobile.table.headers.type' | t">{{
+							'pricing.mobile.table.rows.standard.title' | t }}</td>
+						<td [attr.data-label]="'pricing.mobile.table.headers.price' | t">{{
+							'pricing.mobile.table.rows.standard.price' | t }}</td>
+						<td [attr.data-label]="'pricing.mobile.table.headers.notes' | t">{{
+							'pricing.mobile.table.rows.standard.notes' | t }}</td>
+					</tr>
+					<tr>
+						<td [attr.data-label]="'pricing.mobile.table.headers.type' | t">{{
+							'pricing.mobile.table.rows.advanced.title' | t }}</td>
+						<td [attr.data-label]="'pricing.mobile.table.headers.price' | t">{{
+							'pricing.mobile.table.rows.advanced.price' | t }}</td>
+						<td [attr.data-label]="'pricing.mobile.table.headers.notes' | t">{{
+							'pricing.mobile.table.rows.advanced.notes' | t }}</td>
+					</tr>
+					<tr>
+						<td [attr.data-label]="'pricing.mobile.table.headers.type' | t">{{
+							'pricing.mobile.table.rows.enterprise.title' | t }}</td>
+						<td [attr.data-label]="'pricing.mobile.table.headers.price' | t">{{
+							'pricing.mobile.table.rows.enterprise.price' | t }}</td>
+						<td [attr.data-label]="'pricing.mobile.table.headers.notes' | t">{{
+							'pricing.mobile.table.rows.enterprise.notes' | t }}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="cta-group" appScrollReveal>
+			<a href="#contact" class="btn primary">{{ 'pricing.cta' | t }}</a>
+		</div>
+	</div>
+
+	<div class="pricing-block">
+		<h3 class="mt-32" appScrollReveal>{{ 'pricing.iot.title' | t }}</h3>
+		<div class="cards" appScrollReveal>
+			<article class="card">
+				<p class="lead">{{ 'pricing.iot.note' | t }}</p>
+			</article>
+		</div>
+		<div class="cta-group" appScrollReveal>
+			<a href="#contact" class="btn primary">{{ 'pricing.cta' | t }}</a>
+		</div>
+	</div>
+
+	<p id="pricing-disclaimer" class="section-note" appScrollReveal>{{ 'pricing.disclaimer' | t }}</p>
+</div>

@@ -1,0 +1,56 @@
+:host {
+	display: block
+}
+
+.logo-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: var(--blue);
+	display: inline-block
+}
+
+.brand-logo {
+	display: inline-block;
+	border-radius: 8px;
+	box-shadow: none
+}
+
+/* hamburger */
+.hamburger {
+	display: none;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border: 1px solid var(--gray-200);
+	border-radius: 10px;
+	background: #fff;
+	cursor: pointer
+}
+
+.hamburger span {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	height: 2px;
+	background: var(--dark);
+	transition: transform .2s ease, opacity .2s ease
+}
+
+.hamburger span:nth-child(1) {
+	top: 12px
+}
+
+.hamburger span:nth-child(2) {
+	top: 19px
+}
+
+.hamburger span:nth-child(3) {
+	top: 26px
+}
+
+@media (max-width: 900px) {
+	.hamburger {
+		display: block
+	}
+}

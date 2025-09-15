@@ -1,0 +1,144 @@
+{
+	"nav": {
+		"welcome": "Welcome",
+		"services": "Services",
+		"pricing": "Pricing",
+		"testimonials": "Testimonials",
+		"contact": "Contact"
+	},
+	"hero": {
+		"title": "Digital experiences that accelerate your growth.",
+		"subtitle": "Trinovatech partners with SMBs and mid-market teams: blazing-fast websites, polished mobile apps, and reliable embedded systems—built to last and scale.",
+		"ctaPrimary": "Book a free consultation",
+		"ctaSecondary": "See our services"
+	},
+	"services": {
+		"title": "Our Services",
+		"subtitle": "Design, development, and end-to-end enablement",
+		"web": {
+			"title": "Website Development",
+			"desc": "SEO-first websites: portfolios, corporate sites, and high-converting e-commerce (Shopify, WooCommerce, headless). Fast, responsive, and easy to update."
+		},
+		"mobile": {
+			"title": "Mobile Applications",
+			"desc": "iOS & Android apps (native or hybrid) with premium UX, offline support, notifications, and smooth performance."
+		},
+		"embedded": {
+			"title": "Embedded Systems",
+			"desc": "Robust IoT: reliable firmware, BLE/LoRa/Wi-Fi, strong security, and cloud integration—from prototype to production."
+		}
+	},
+	"testimonials": {
+		"title": "Trusted by clients",
+		"subtitle": "Measurable outcomes, frictionless execution",
+		"item1": {
+			"quote": "They migrated us to a modern stack and improved Core Web Vitals. Leads up 24% in six weeks.",
+			"author": "Elena B., Marketing Lead"
+		},
+		"item2": {
+			"quote": "We shipped our logistics app on time. Offline mode and background sync work reliably in the field.",
+			"author": "Ravi S., Operations Manager"
+		},
+		"item3": {
+			"quote": "Stable BLE firmware with OTA updates. We passed CE certification on schedule.",
+			"author": "Marion D., Hardware Lead"
+		},
+		"item4": {
+			"quote": "Clear project management and practical trade-offs. Delivered within the agreed budget.",
+			"author": "Louis T., Product Manager"
+		}
+	},
+	"contact": {
+		"title": "Let's talk about your project",
+		"subtitle": "Book a free consultation",
+		"fields": {
+			"name": "Name",
+			"phone": "Phone",
+			"email": "Email",
+			"subject": "Subject",
+			"message": "Message"
+		},
+		"submit": "Send",
+		"disclaimer": "We reply within 24h. No obligation."
+	},
+	"footer": {
+		"address": "HQ: 15 Rue de l'Innovation, 75010 Paris, France",
+		"copyright": "© 2025 Trinovatech. All rights reserved."
+	},
+	"pricing": {
+		"title": "Pricing",
+		"intro": "Transparent ranges to help you plan your budget. Final quotes depend on scope, integrations, and timelines.",
+		"web": {
+			"title": "Websites",
+			"desc": "From one-page landings to complex e-commerce and custom portals.",
+			"table": {
+				"headers": {
+					"type": "Type",
+					"price": "Range (excl. tax)",
+					"notes": "Notes"
+				},
+				"rows": {
+					"landing": {
+						"title": "Landing / One-pager",
+						"price": "$800 - $2,000",
+						"notes": "Fast launch, 3-5 sections"
+					},
+					"corporate": {
+						"title": "Corporate site (5-15 pages)",
+						"price": "$2,000 - $6,000",
+						"notes": "Blog, contact, basic SEO"
+					},
+					"ecommerce": {
+						"title": "E-commerce",
+						"price": "$3,500 - $12,000",
+						"notes": "Shopify/WooCommerce, payments"
+					},
+					"custom": {
+						"title": "Custom / Headless",
+						"price": "$6,000 - $20,000+",
+						"notes": "API integration, CMS, auth"
+					}
+				}
+			}
+		},
+		"mobile": {
+			"title": "Mobile apps",
+			"desc": "iOS & Android, native or hybrid. Pricing varies with features and complexity.",
+			"table": {
+				"headers": {
+					"type": "Type",
+					"price": "Range (excl. tax)",
+					"notes": "Notes"
+				},
+				"rows": {
+					"mvp": {
+						"title": "MVP",
+						"price": "$5,000 - $15,000",
+						"notes": "Core features, no frills"
+					},
+					"standard": {
+						"title": "Standard app",
+						"price": "$15,000 - $40,000",
+						"notes": "Auth, API, offline, push"
+					},
+					"advanced": {
+						"title": "Advanced",
+						"price": "$40,000 - $80,000",
+						"notes": "Real-time, payments, media"
+					},
+					"enterprise": {
+						"title": "Enterprise",
+						"price": "$80,000+",
+						"notes": "SLA, SSO, MDM, analytics"
+					}
+				}
+			}
+		},
+		"iot": {
+			"title": "IoT & Embedded",
+			"note": "IoT/embedded solutions don't have a standard estimate due to hardware, connectivity, and certification constraints. We'll scope with you and provide a tailored quote."
+		},
+		"disclaimer": "Prices may be lower or higher than these ranges depending on your exact requirements.",
+		"cta": "Book a free consultation"
+	}
+}
